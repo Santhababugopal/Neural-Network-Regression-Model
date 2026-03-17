@@ -6,7 +6,9 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 
-Explain the problem statement
+The objective of this experiment is to develop a neural network regression model using a dataset created in Google Sheets with one numeric input and one numeric output. Regression is a supervised learning technique used to predict continuous values. A neural network is chosen because it can effectively learn both linear and non-linear relationships between input and output by adjusting its weights during training.
+
+The model is trained using backpropagation to minimize a loss function such as Mean Squared Error (MSE). During each iteration, the training loss is calculated and updated. The training loss vs iteration plot is used to visualize the learning process of the model, where a decreasing loss indicates that the neural network is learning properly and converging toward an optimal solution.
 
 ## Neural Network Model
 
@@ -162,7 +164,7 @@ print(f'Prediction: {prediction}')
 
 
 
-##RESULT:
+## RESULT:
 
 Thus,the code was successfully executed  to develop a neural network regression model...
 
